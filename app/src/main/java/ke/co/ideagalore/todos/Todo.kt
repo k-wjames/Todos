@@ -11,5 +11,5 @@ class Todo(
     @ColumnInfo(name = "timestamp") val timeStamp: String
 ) {
     @PrimaryKey(autoGenerate = true)
-    var id=01
+    var id=0
 }
